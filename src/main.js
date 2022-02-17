@@ -5,8 +5,8 @@ import 'echarts-fabric'
 import * as echarts from 'echarts'
 Vue.config.productionTip = false
 
-Vue.prototype.$echarts = echarts;
 Vue.use(fabric);
+Vue.prototype.$echarts=echarts;
 
 new Vue({
   render: h => h(App),
